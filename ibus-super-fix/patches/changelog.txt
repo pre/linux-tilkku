@@ -1,0 +1,10 @@
+ibus (1.5.29-2ubuntu0~local1) noble; urgency=medium
+
+  * Local rebuild with two upstream fixes for the simple engine, so that
+    a Super or Hyper shortcut with a non-ASCII key reaches the compositor
+    in text inputs (LP: #2086589):
+    - 0006: upstream 4872c1fcd (1.5.30), do not commit any characters.
+    - 0007: upstream 48c4a9c90 (1.5.31), ignore the Super modifier for
+      compose keys.
+
+ -- Petrus Repo <petrus.repo@amd.com>  Thu, 06 Nov 2026 10:30:00 +0200
